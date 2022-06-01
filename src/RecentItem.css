@@ -1,0 +1,22 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+.items__details{
+    display: flex;
+    margin-top: 20px;
+}
+.items__details>img{
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}

@@ -1,0 +1,36 @@
+.channel{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.channel:hover{
+    background: #25252c;
+}
+.channel__details{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.channel>div>img{
+    width: 40px;
+    object-fit: contain;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.channel__details__names{ 
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    flex: 1;
+}
+.fa-compact-disc{
+    color: #dd1f1f;
+}
+.icon i{
+    flex: 1;
+}

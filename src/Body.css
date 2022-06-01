@@ -1,0 +1,8 @@
+.body{
+    background-color: rgb(255,153,0);
+    background-image: url("https: //freesvg.org/img/1653911101film-rolls-in-various-colors.png");
+    flex: 1;
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+}
