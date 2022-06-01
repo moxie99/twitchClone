@@ -1,5 +1,6 @@
 .profile{
     background: #0e0e10;
+    
 }
 .profile__top{
     display: flex;
@@ -62,4 +63,29 @@
     color: #de5edc;
     border-bottom: 2px solid #aa22a7;
     padding-bottom: 8px;
+}
+.profile__recent__broadcast{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    margin-left:20px;
+}
+.profile__broadcast{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile__category{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.profile__category>img{
+    max-height: 320px;
+    max-width: 400px;
+}
+.profile__category>h2{
+    margin-bottom: 10px;
+}
+.profile__category>h3{
+    margin-top: 10px;
 }

@@ -8,10 +8,12 @@
 }
 .items__details{
     display: flex;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin: 10px  0;
 }
 .items__details>img{
-    height: 60px;
+    height: 40px;
+    width: 40px;
     object-fit: cover;
     margin-right: 10px;
     border-radius:50%;
@@ -19,4 +21,9 @@
     -moz-border-radius:50%;
     -ms-border-radius:50%;
     -o-border-radius:50%;
+}
+.items_detail_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }

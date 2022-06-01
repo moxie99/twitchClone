@@ -24,6 +24,10 @@ const videos = [
     url: "https://videos.pond5.com/group-five-teenage-girls-run-footage-033309797_main_xxl.mp4",
     title: "Girls going out"
   },
+  {
+    url: "https://videos.pond5.com/group-five-teenage-girls-run-footage-033309797_main_xxl.mp4",
+    title: "Girls going out"
+  },
 ]
 
 const Profile = () => {
@@ -54,10 +58,8 @@ const Profile = () => {
     <div className="profile__recent__broadcast">
       <h2>Recent Broadcast</h2>
       <div className="profile__broadcast">
-         {/* <RecentItem url={"https://videos.pond5.com/group-five-teenage-girls-run-footage-033309797_main_xxl.mp4"} 
-         title="Girls Playing"/> */}
-         {
-          
+
+         { 
            videos.map((video, index) => {
              return(
              <RecentItem key={index.toString()} url={video.url} title={video.title}/>)
@@ -65,6 +67,11 @@ const Profile = () => {
          }
       </div>
     </div>
+    <div className="profile__category">
+          <h2>Mathematics Classes</h2>
+          <img src="https://images.pexels.com/photos/714699/pexels-photo-714699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <h3>Junior Secondary Classes</h3>
+        </div>
 </div>
   </div>);
 };
